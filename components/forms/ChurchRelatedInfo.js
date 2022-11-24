@@ -1,7 +1,7 @@
 import React from "react";
 import { useStepperContext } from "../../contexts/StepperContext";
 import { FormControlLabel, Checkbox } from "@mui/material";
-import { Box } from "@mui/system";
+
 
 function ChurchRelatedInfo() {
   const { userData, setUserData } = useStepperContext();

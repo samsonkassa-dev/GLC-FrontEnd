@@ -27,7 +27,7 @@ function Application() {
       case 2:
         return <ChurchRelatedInfo/>;
       case 3:
-        return <ChurchRelatedInfo/>;
+        return <ChurchRelatedInfo2/>;
       case 4:
         return <Final />;
       default:
