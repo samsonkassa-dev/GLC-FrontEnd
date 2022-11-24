@@ -69,8 +69,8 @@ function ChurchRelatedInfo() {
           <div className="input-div-style">
             <input
               onChange={handleChange}
-              value={userData["phoneNumber"]?.value || ""}
-              name="phoneNumber"
+              value={userData["inviterphoneNumber"]?.value || ""}
+              name="inviterphoneNumber"
               className="input-style"
             />
           </div>
